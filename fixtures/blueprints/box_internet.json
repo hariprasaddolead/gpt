@@ -1,0 +1,774 @@
+{
+  "fields": [
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "besoin client",
+      "name": "besoin_client",
+      "validator": null,
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Company name",
+      "name": "company_name",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": null,
+      "label": "Code postal",
+      "name": "cp",
+      "validator": "french_zip_code",
+      "values": []
+    },
+    {
+      "default_value": null,
+      "doc": null,
+      "label": "Email",
+      "name": "email",
+      "validator": "email",
+      "values": []
+    },
+    {
+      "default_value": null,
+      "doc": null,
+      "label": "Nom",
+      "name": "nom",
+      "validator": "no",
+      "values": []
+    },
+    {
+      "default_value": null,
+      "doc": null,
+      "label": "T\u00e9l\u00e9phone",
+      "name": "phone_fixe",
+      "validator": "french_phone",
+      "values": []
+    },
+    {
+      "default_value": null,
+      "doc": null,
+      "label": "T\u00e9l\u00e9phone",
+      "name": "phone_mobile",
+      "validator": "french_phone",
+      "values": []
+    },
+    {
+      "default_value": null,
+      "doc": null,
+      "label": "Pr\u00e9nom",
+      "name": "prenom",
+      "validator": "no",
+      "values": []
+    },
+    {
+      "default_value": "M.",
+      "doc": null,
+      "label": "Civilit\u00e9",
+      "name": "civilite",
+      "validator": "no",
+      "values": [
+        {
+          "label": "Monsieur",
+          "value": "M."
+        },
+        {
+          "label": "Madame",
+          "value": "Mme"
+        },
+        {
+          "label": "Mademoiselle",
+          "value": "Mlle"
+        }
+      ]
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "adresse",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "besoin_client_1",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "bug",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "campagne_marque",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "commitment",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "current_fournisseur",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "DATE OBTENTION OPTIN",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "delai_souscription",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "demenagement",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "disadvantage",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "electromenager",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "ELIGIBILITE_FIBRE_FAI",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "gdpr-optin",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "installation_fibre",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "interest",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "interet_fournisseur_energie",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "interet_fournisseur_telecom",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "MODE CUISSON CUISINE- ENERGIE",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "mode_de_chauffage",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "mode_de_chauffage2",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "montant_facture",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "montant_facture_2",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "montant_facture_internet",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "nb_compteur",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "nom_rue",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "numero_rue",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "NUM_FORM",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "offre",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "OPERATEUR_MOBILE_ACTUEL",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "optin-mkg",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "options_box_mobile_tv",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "PARTENAIRE LEAD",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "personne_foyer",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "preference",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "prix_facture",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "PRIX_MOBILE_ACTUEL",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "RAISON CHANGEMENT ENERGIE",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "RAISON CHANGEMENT MOBILE",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "raison_sociale",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "rappel_24h",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "siret",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "situation_actuelle",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "speed",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "TAILLE LOGEMENT - ENERGIE",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "TYPE HABITATION - ENERGIE",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "typeCampagne",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "type_forfait_souhaite1",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "type_forfait_souhaite2",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "utm_source",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "ville",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "when_change",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "when_commited",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Generic Field",
+      "name": "why_change",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Op\u00e9rateur",
+      "name": "operateur",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"Op\\u00e9rateur telco afin de brancher sfr et rechange en \\/\\/\",\"example\":\"\"}",
+      "label": "Op\u00e9rateur_bis",
+      "name": "operateur_bis",
+      "validator": "no",
+      "values": [
+        {
+          "label": "Orange",
+          "value": "Orange"
+        },
+        {
+          "label": "SFR",
+          "value": "SFR"
+        },
+        {
+          "label": "Bouygues",
+          "value": "Bouygues"
+        },
+        {
+          "label": "Free",
+          "value": "Free"
+        },
+        {
+          "label": "Autre",
+          "value": "Autre"
+        }
+      ]
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "phone",
+      "name": "phone",
+      "validator": null,
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "phone_mobile_international",
+      "name": "phone_mobile_international",
+      "validator": null,
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Souhait rappel",
+      "name": "souhait_rappel",
+      "validator": "include_in",
+      "values": [
+        {
+          "label": "D\u00e8s que possible",
+          "value": "des_que_possible"
+        },
+        {
+          "label": "Sous 24h",
+          "value": "sous_24h"
+        },
+        {
+          "label": "Dans la semaine",
+          "value": "dans_la_semaine"
+        },
+        {
+          "label": "Je ne souhaite pas \u00eatre rappel\u00e9",
+          "value": "je_ne_veux_pas_etre_rappele"
+        }
+      ]
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Source",
+      "name": "source_collecte",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "Source",
+      "name": "source_collecte2",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "timing_en",
+      "name": "user_time",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "type box",
+      "name": "type_box_souhaite1",
+      "validator": "include_in",
+      "values": [
+        {
+          "label": "Une box \u00e0 tr\u00e8s haut d\u00e9bit",
+          "value": "box_tres_haut_debit"
+        },
+        {
+          "label": "Une box \u00e0 haut d\u00e9bit",
+          "value": "box_haut_debit"
+        },
+        {
+          "label": "Le t\u00e9l\u00e9phone illimit\u00e9 vers fixes et mobiles",
+          "value": "telephone_illimite_fixe_et_mobile"
+        },
+        {
+          "label": "Acc\u00e9der \u00e0 des cha\u00eenes TV : sport, news, presse, etc.",
+          "value": "acces_a_chaine_tv"
+        }
+      ]
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "type box",
+      "name": "type_box_souhaite2",
+      "validator": "include_in",
+      "values": [
+        {
+          "label": "Une box \u00e0 tr\u00e8s haut d\u00e9bit",
+          "value": "box_tres_haut_debit"
+        },
+        {
+          "label": "Une box \u00e0 haut d\u00e9bit",
+          "value": "box_haut_debit"
+        },
+        {
+          "label": "Le t\u00e9l\u00e9phone illimit\u00e9 vers fixes et mobiles",
+          "value": "telephone_illimite_fixe_et_mobile"
+        },
+        {
+          "label": "Acc\u00e9der \u00e0 des cha\u00eenes TV : sport, news, presse, etc.",
+          "value": "acces_a_chaine_tv"
+        }
+      ]
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "type box",
+      "name": "type_box_souhaite3",
+      "validator": "include_in",
+      "values": [
+        {
+          "label": "Une box \u00e0 tr\u00e8s haut d\u00e9bit",
+          "value": "box_tres_haut_debit"
+        },
+        {
+          "label": "Une box \u00e0 haut d\u00e9bit",
+          "value": "box_haut_debit"
+        },
+        {
+          "label": "Le t\u00e9l\u00e9phone illimit\u00e9 vers fixes et mobiles",
+          "value": "telephone_illimite_fixe_et_mobile"
+        },
+        {
+          "label": "Acc\u00e9der \u00e0 des cha\u00eenes TV : sport, news, presse, etc.",
+          "value": "acces_a_chaine_tv"
+        }
+      ]
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "type box",
+      "name": "type_box_souhaite4",
+      "validator": "include_in",
+      "values": [
+        {
+          "label": "Une box \u00e0 tr\u00e8s haut d\u00e9bit",
+          "value": "box_tres_haut_debit"
+        },
+        {
+          "label": "Une box \u00e0 haut d\u00e9bit",
+          "value": "box_haut_debit"
+        },
+        {
+          "label": "Le t\u00e9l\u00e9phone illimit\u00e9 vers fixes et mobiles",
+          "value": "telephone_illimite_fixe_et_mobile"
+        },
+        {
+          "label": "Acc\u00e9der \u00e0 des cha\u00eenes TV : sport, news, presse, etc.",
+          "value": "acces_a_chaine_tv"
+        }
+      ]
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "version lp",
+      "name": "version",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "version lp",
+      "name": "version_lp",
+      "validator": "no",
+      "values": null
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"Quand contacter le personne\",\"example\":\"\"}",
+      "label": "When contact",
+      "name": "when_contact",
+      "validator": "no",
+      "values": [
+        {
+          "label": "Imm\u00e9diatement",
+          "value": "1"
+        },
+        {
+          "label": "Entre 9h et 12h",
+          "value": "2"
+        },
+        {
+          "label": "Entre 12h et 14h",
+          "value": "3"
+        },
+        {
+          "label": "Entre 14h et 18h",
+          "value": "4"
+        },
+        {
+          "label": "Entre 18h et 20h",
+          "value": "5"
+        },
+        {
+          "label": "Pas de pr\u00e9f\u00e9rence\\n",
+          "value": "6"
+        }
+      ]
+    },
+    {
+      "default_value": null,
+      "doc": "{\"explanation\":\"\",\"example\":\"\"}",
+      "label": "zip code",
+      "name": "zip_code",
+      "validator": "no",
+      "values": null
+    }
+  ],
+  "id": "box_internet",
+  "label": "box internet"
+}

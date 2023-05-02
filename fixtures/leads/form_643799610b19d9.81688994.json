@@ -1,0 +1,98 @@
+{
+  "blueprint_id": "box_internet",
+  "customer_fields_mapping": {
+    "nom_rue": {
+      "customer_key": "Nom_Voie_Adresse_Titulaire",
+      "customer_value": "Place de la R\u00e9publique"
+    },
+    "numero_rue": {
+      "customer_key": "Numero_Voie_Adresse_Titulaire",
+      "customer_value": "12"
+    },
+    "cp": {
+      "customer_key": "Code_Postal_Adresse_Titulaire",
+      "customer_value": "75015"
+    },
+    "email": {
+      "customer_key": "Email_Titulaire",
+      "customer_value": "doleadtest__1373@dolead.com"
+    },
+    "nom": {
+      "customer_key": "Nom_Titulaire",
+      "customer_value": "doleadtest"
+    },
+    "phone_mobile": {
+      "customer_key": "Tel_Mobile_Titulaire",
+      "customer_value": "0623456789"
+    },
+    "prenom": {
+      "customer_key": "Prenom_Titulaire",
+      "customer_value": "Imad"
+    },
+    "ville": {
+      "customer_key": "Ville_Adresse_Titulaire",
+      "customer_value": "Paris"
+    },
+    "operateur": {
+      "customer_key": "Operateur_Fixe_Prospect ",
+      "customer_value": "Orange"
+    },
+    "besoin_client": {
+      "customer_key": "Eligibilite_FTTH_Adresse_Titulaire  ",
+      "customer_value": "box_tres_haut_debit"
+    }
+  },
+  "customer_id": 1373,
+  "customer_mapping": {
+    "customer_form_id": "9110",
+    "customer_form_name": "Box Search",
+    "customer_price": "7.1"
+  },
+  "fields": {
+    "adresse": "Place de la R\u00e9publique",
+    "besoin_client": "box_tres_haut_debit",
+    "civilite": "M.",
+    "dldclck_id": "6436ee888f6d3ede0e7cb2d4",
+    "email": "doleadtest__1373@dolead.com",
+    "gdpr_optin_default": "True",
+    "installation_fibre": "oui",
+    "lp_app_type": "survey",
+    "lp_domain": "lameilleureboxinternet.io",
+    "lp_dux_id": "5d402ebdcc01245934f5567a",
+    "lp_dux_template_id": "5fcfb675cc0124694ff2f23b",
+    "lp_dux_variant_id": "5d809d1e58339b2b5bd8114d",
+    "lp_interactive_provider": "dux",
+    "lp_last_click_app_type": "survey",
+    "lp_static_provider": "dux",
+    "lp_url": "https://offres.lameilleureboxinternet.io/",
+    "nom": "doleadtest",
+    "nom_rue": "Place de la R\u00e9publique",
+    "operateur": "SFR",
+    "options_box_mobile_tv": "telephone_illimite_fixe_et_mobile",
+    "phone_mobile": "0623456789",
+    "phone_mobile_international": "+33623456789",
+    "prenom": "Imad",
+    "source_collecte2": "IMPORT-DOLEAD-TELCO",
+    "uctx_browser_name": "Chrome",
+    "uctx_browser_version": "111.0.0",
+    "uctx_platform": "Windows",
+    "uctx_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36",
+    "ville": "Paris",
+    "when_change": "d\u00e8s que possible",
+    "why_change": "Un service client \u00e0 l'\u00e9coute"
+  },
+  "form_id": 9110,
+  "form_name": "InternetPackage_FR_Box_Search",
+  "lead_id": "form_643799610b19d9.81688994",
+  "phone_details": null,
+  "provider": {
+    "id": 164,
+    "login": "dolead_sea_provider",
+    "name": "Dolead SEA provider"
+  },
+  "source": "autre",
+  "status": "refused",
+  "subsource": null,
+  "timestamp": "2023-04-13 07:55:46",
+  "universe_id": 5
+}
